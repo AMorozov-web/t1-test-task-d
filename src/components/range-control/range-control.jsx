@@ -25,6 +25,8 @@ const Input = styled.input`
   width: 100%;
   height: 5px;
   color: #ffffff;
+  background-color: transparent;
+  background-image: url('../img/chalk.png');
   border: none;
   border-radius: 3px;
   -webkit-appearance: none;
@@ -34,7 +36,8 @@ const Input = styled.input`
     height: 27px;
     width: 9px;
     border-radius: 3px;
-    background: #ffffff;
+    background-color: transparent;
+    background-image: url('../img/chalk.png');
     cursor: pointer;
   }
 
@@ -42,7 +45,8 @@ const Input = styled.input`
     height: 27px;
     width: 9px;
     border-radius: 3px;
-    background: #ffffff;
+    background-color: transparent;
+    background-image: url('../img/chalk.png');
     cursor: pointer;
   }
 `;

@@ -35,7 +35,8 @@ const TinkerWrapper = styled.div`
 const TinkerBase = styled.div`
   width: 100px;
   height: 15px;
-  background-color: #ffffff;
+  background-color: transparent;
+  background-image: url('../img/chalk.png');
   border-radius: 10px;
 `;
 
@@ -49,7 +50,8 @@ const TinkerPlunger = styled.div.attrs((props) => ({
   top: 7px;
   left: calc(50% - 2px);
   width: 4px;
-  background-color: #ffffff;
+  background-color: transparent;
+  background-image: url('../img/chalk.png');
   border-radius: 10px;
   transition: all 0,5s;
   transform-origin: 100% 0%;
@@ -62,7 +64,8 @@ const TinkerLoad = styled.div`
   left: -43px;
   width: 90px;
   height: 90px;
-  background-color: #ffffff;
+  background-color: transparent;
+  background-image: url('../img/chalk.png');
   border-radius: 50%;
 `;
 
